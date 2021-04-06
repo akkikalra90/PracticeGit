@@ -7,6 +7,9 @@ public class VehicleUse {
 		v.printVehicle();
 		
 		Car c = new Car();
+		c.name = "Honda City";
+		c.setMaxSpeed(105);
+		c.numGears = 5;
 		c.printCar();
 		
 		return;

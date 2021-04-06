@@ -8,9 +8,9 @@ public class Car extends Vehicle {
 	}
 	
 	public void printCar() {
-		System.out.println("Car name:" + name);
-		System.out.println("Car maxSpeed:" + maxSpeed);
-		System.out.println("Car numGears:" + numGears);
+		System.out.println("Car name:" + this.name);
+		System.out.println("Car maxSpeed:" + this.getMaxSpeed());
+		System.out.println("Car numGears:" + this.numGears);
 		
 		return;
 	}

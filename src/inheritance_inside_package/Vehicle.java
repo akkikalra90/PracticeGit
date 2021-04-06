@@ -2,10 +2,20 @@ package inheritance_inside_package;
 
 public class Vehicle {
 	String name;
-	int maxSpeed;
+	private int maxSpeed;
 	
 	public Vehicle() {
 		System.out.println("Vehicle Constructor is called");
+	}
+	
+	public void setMaxSpeed(int maxSpeed) {
+		this.maxSpeed = maxSpeed;
+		
+		return;
+	}
+	
+	public int getMaxSpeed() {
+		return this.maxSpeed;
 	}
 	
 	public void printVehicle() {

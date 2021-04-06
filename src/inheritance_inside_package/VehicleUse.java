@@ -4,7 +4,10 @@ public class VehicleUse {
 
 	public static void main(String[] args) {
 		Vehicle v = new Vehicle();
-		v.print();
+		v.printVehicle();
+		
+		Car c = new Car();
+		c.printCar();
 		
 		return;
 	}

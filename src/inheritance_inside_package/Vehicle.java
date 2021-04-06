@@ -8,7 +8,7 @@ public class Vehicle {
 		System.out.println("Vehicle Constructor is called");
 	}
 	
-	public void print() {
+	public void printVehicle() {
 		System.out.println("Vehicle name:" + name);
 		System.out.println("Vehicle maxSpeed:" + maxSpeed);
 		

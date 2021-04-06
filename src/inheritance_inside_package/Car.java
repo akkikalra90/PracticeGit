@@ -7,7 +7,7 @@ public class Car extends Vehicle {
 		System.out.println("Car constructor is called");
 	}
 	
-	public void printCar() {
+	public void print() {
 		System.out.println("Car name:" + this.name);
 		System.out.println("Car maxSpeed:" + this.getMaxSpeed());
 		System.out.println("Car numGears:" + this.numGears);

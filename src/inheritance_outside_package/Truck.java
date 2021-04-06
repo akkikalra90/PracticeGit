@@ -10,15 +10,16 @@ public class Truck extends Vehicle {
 	}
 	
 	public void print() {
-		System.out.println("maxSpeed: " + this.getMaxSpeed());
+		super.print();
 		System.out.println("loadCapacity: " + loadCapacity);
 		
 		return;
 	}
 	
 	public static void main(String args[]) {
-		Truck t = new Truck(205);
+		Truck t        = new Truck(205);
 		t.loadCapacity = 1005;
+		t.name         = "Mahindra Truck";
 		t.print();
 		
 		return;

@@ -1,7 +1,7 @@
 package inheritance_inside_package;
 
 public class Vehicle {
-	String name;
+	protected String name;
 	private int maxSpeed;
 	
 	public Vehicle(int maxSpeed) {

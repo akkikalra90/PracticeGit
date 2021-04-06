@@ -3,12 +3,11 @@ package inheritance_inside_package;
 public class VehicleUse {
 
 	public static void main(String[] args) {
-		Vehicle v = new Vehicle();
+		Vehicle v = new Vehicle(0);
 		v.print();
 		
-		Car c = new Car();
+		Car c = new Car(105);
 		c.name = "Honda City";
-		c.setMaxSpeed(105);
 		c.numGears = 5;
 		c.print();
 		

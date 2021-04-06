@@ -4,8 +4,9 @@ public class Vehicle {
 	String name;
 	private int maxSpeed;
 	
-	public Vehicle() {
+	public Vehicle(int maxSpeed) {
 		System.out.println("Vehicle Constructor is called");
+		this.maxSpeed = maxSpeed;
 	}
 	
 	public void setMaxSpeed(int maxSpeed) {

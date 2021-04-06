@@ -3,7 +3,8 @@ package inheritance_inside_package;
 public class Car extends Vehicle {
 	int numGears;
 	
-	public Car() {
+	public Car(int maxSpeed) {
+		super(maxSpeed);
 		System.out.println("Car constructor is called");
 	}
 	

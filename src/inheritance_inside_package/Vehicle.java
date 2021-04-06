@@ -19,8 +19,8 @@ public class Vehicle {
 	}
 	
 	public void print() {
-		System.out.println("Vehicle name:" + name);
-		System.out.println("Vehicle maxSpeed:" + maxSpeed);
+		System.out.println("Name:" + name);
+		System.out.println("MaxSpeed:" + maxSpeed);
 		
 		return;
 	}
